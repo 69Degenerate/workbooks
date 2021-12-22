@@ -18,15 +18,15 @@ int finish,time,n,k,prev;
 void getinput()
 {
     int i;
-    system("clear");
+    System("clear");
     printf("\n enter number of process:");
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
         printf("\n enter number of process: ");
-        scanf("%d",&tab[i].name);
+        scanf("%s",tab[i].name);
         printf("\n burst time:");
-        scanf("%d",tab[i].bt);
+        scanf("%d",&tab[i].bt);
         printf("\n arrivel time:");
         scanf("%d",&tab[i].at);
         tab[i].tbt=tab[i].bt;
@@ -78,7 +78,7 @@ void printoutput()
 }
 
 
-void processing()
+void processinput()
 {
     int i,j;
     finish=k=0;
