@@ -4,5 +4,24 @@ d={'name':['A','B','C','D','E','F','G','H','I','J'],
     'age':[15,15,16,15,17,14,16,16,15,17],
     'percentage':[67,56,64,94,76,87,56,87,54,76]}
 df=p.DataFrame.from_dict(d)
+print('''____________________________
+      data frame''')
 print(df)
-print
+print('''____________________________
+      data frame shape''')
+print(df.shape)
+
+a=df.shape
+q,w=a
+print('number of rows:',q)
+print('number of column',w)
+
+print('''____________________________
+      data types''')
+
+print(df.dtypes)
+
+print('''_____________________________
+      describe''')
+
+print(df.describe())
