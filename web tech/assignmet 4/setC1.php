@@ -6,8 +6,8 @@
     $ack[]=ksort($a);
     $dk[]=krsort($a);
     print_r($ac);
-    // echo "\n ascending by key $ack";
-    // echo "\n descending $d";
-    // echo "\n descending by key $dk";
+    print_r($ack);// echo "\n ascending by key $ack";
+    print_r($d);// echo "\n descending $d";
+    print_r($dk);// echo "\n descending by key $dk";
 
 ?>
