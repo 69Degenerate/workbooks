@@ -1,5 +1,5 @@
 import java.io.*;
-public class num
+public class second
 {
     public static void main(String[] args) {
         FileInputStream inputStream=null;
