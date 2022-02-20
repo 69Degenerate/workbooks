@@ -5,7 +5,8 @@
 import java.util.*;
 
 public class first {
-  public static void main(String args[]) {
+  public static void main(String args[])
+  {
     int row, col;
 
     Scanner s = new Scanner(System.in);
