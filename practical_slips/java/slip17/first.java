@@ -1,4 +1,6 @@
+
 // Write a java program to display all the vowels from a given string. 
+
 
 
 import java.io.*;
